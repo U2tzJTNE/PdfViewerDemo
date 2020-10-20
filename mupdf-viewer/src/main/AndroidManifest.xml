@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lonelypluto.pdfviewerdemo">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity
+            android:name=".activity.AllPDFActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OutlineActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.BasePDFActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.MuPDFActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.MoreSetActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.SignActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
